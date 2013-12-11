@@ -5,7 +5,7 @@
 
     angularLocalStorage.provider('localStorageService', function(){
 // You should set a prefix to avoid overwriting any local storage variables from the rest of your app
-// e.g. angularLocalStorage.constant('prefix', 'youAppName');
+// e.g. localStorageServiceProvider.setPrefix('youAppName');
         this.prefix = 'ls';
 // Cookie options (usually in case of fallback)
 // expiry = Number of days before cookies expire // 0 = Does not expire
